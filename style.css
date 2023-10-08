@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:brown;
+    text-align: center;
+    font-size: 50px;
+    background-color: dimgray;
+    margin-top: 2% 0;
+    padding-bottom: 2%;
+    cursor: default;
+    transition: 0.5s;
+}
+h1:hover{
+    transition: 0.5s;
+    color:darkgoldenrod;
+}
+
+h2{
+    color:coral;
+}
+
+.Biodata{
+    color:darkgoldenrod;
+}
+body{
+    background-color: darkgray;
+}
+.gambar{
+    width: 20%;
+    object-fit: scale-down;
+    background-color: brown; 
+}
+.biodata{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px 10%;
+
+}
+.biodata::first-letter{
+    font-size: 50px;
+}
+.sub{
+
+    display: flex;
+    background-color: dimgray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+
+}
+.subb{
+    height: 100px;
+    display: flex;
+    background-color: dimgray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kontak{
+    color: brown;
+    font-size: medium;
+}
